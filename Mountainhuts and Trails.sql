@@ -57,7 +57,7 @@ cte_final AS (
     SELECT 
         CASE WHEN altitude_flag = 1 THEN start_hut ELSE end_hut END AS start_hut,
         CASE WHEN altitude_flag = 1 THEN start_hut_name ELSE end_hut_name END AS start_hut_name ,
-	    CASE WHEN altitude_flag = 1 THEN end_hut ELSE start_hut END AS end_hut
+	CASE WHEN altitude_flag = 1 THEN end_hut ELSE start_hut END AS end_hut,
         CASE WHEN altitude_flag = 1 THEN end_hut_name ELSE start_hut_name END AS end_hut_name
     FROM 
         cte_trails2
