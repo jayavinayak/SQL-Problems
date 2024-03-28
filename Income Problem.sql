@@ -1,5 +1,5 @@
 
--- PROBLEM STATEMENT: Using the given Salary, Income and Deduction tables, first write an SQL query to populate the Emp_Transaction table.
+-- PROBLEM STATEMENT: Using the given Salary, Income and Deduction tables, first write an SQL query to populate the Emp_Transaction table , and create the second tabel
 
 INPUT
 SALARY
